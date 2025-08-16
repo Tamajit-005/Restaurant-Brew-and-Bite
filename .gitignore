@@ -1,0 +1,21 @@
+# PHP
+*.log
+error_log
+access_log
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+/config.php
+.env
