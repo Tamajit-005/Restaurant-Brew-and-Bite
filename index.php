@@ -22,7 +22,7 @@
     mysqli_select_db($con, "food");
 
     // Create table if it doesn't exist
-$sql = "CREATE TABLE IF NOT EXISTS `dish` (
+    $sql = "CREATE TABLE IF NOT EXISTS `dish` (
     `sl_no` INT AUTO_INCREMENT PRIMARY KEY,
     `name` text COLLATE utf8mb4_general_ci NOT NULL,
     `dish` text COLLATE utf8mb4_general_ci NOT NULL,
@@ -31,7 +31,7 @@ $sql = "CREATE TABLE IF NOT EXISTS `dish` (
     `phone` text COLLATE utf8mb4_general_ci NOT NULL,
     `request` text COLLATE utf8mb4_general_ci NOT NULL,
     `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-)";
+    )";
     if (!mysqli_query($con, $sql)) {
         die("Error creating table: " . mysqli_error($con));
     }

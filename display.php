@@ -47,7 +47,7 @@ if ($result->num_rows > 0) {
 </head>
 
 <body>
-    <img class="bg" src="images/display.jpg" alt="background">
+    <img class="bg" src="Images/display.jpg" alt="background">
     <div class="container">
         <h1>Order Details</h1>
         <p><strong>Name:</strong>

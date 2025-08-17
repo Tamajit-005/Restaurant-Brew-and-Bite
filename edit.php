@@ -88,7 +88,7 @@ $con->close();
 </head>
 
 <body>
-<img class="bg" src="images/edit.jpg" alt="background">
+<img class="bg" src="Images/edit.jpg" alt="background">
 <div class="edit-container">
     <h1>Edit Order</h1>
 
